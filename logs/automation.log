@@ -53,3 +53,7 @@
 21:41:16.858 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Finished -------
 22:03:28.612 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Started -------
 22:03:33.687 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Finished -------
+19:06:04.743 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Started -------
+19:06:12.646 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Finished -------
+19:12:48.385 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Started -------
+19:12:52.168 [main] INFO  testCases.TC0001_AccountRegistration - ------ TC0001_AccountRegistration Finished -------
