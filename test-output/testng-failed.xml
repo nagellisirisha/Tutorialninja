@@ -5,14 +5,16 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC0001_AccountRegistration">
+      <class name="testCases.TC_001_ProductTest">
         <methods>
           <include name="teardown"/>
-          <include name="verifyRegister"/>
           <include name="setup"/>
+          <include name="verifyWishList"/>
         </methods>
-      </class> <!-- testCases.TC0001_AccountRegistration -->
+      </class> <!-- testCases.TC_001_ProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

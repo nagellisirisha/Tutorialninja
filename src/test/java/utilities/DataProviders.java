@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 	
-	@DataProvider(name="LoginData")
+	@DataProvider(name="SearchData")
 	public String[][] getdata() throws IOException
 	{
 		
@@ -14,8 +14,8 @@ public class DataProviders {
 		
 		ExcelUtility xlutil = new ExcelUtility(path);
 		
-		int totalrow = xlutil.getRowCount("Sheet1");
-		int totalcol = xlutil.getCellCount("Sheet1", 0);
+		int totalrow = xlutil.getRowCount("Search");
+		int totalcol = xlutil.getCellCount("Search", 0);
 		
 		String logindata[][] = new String[totalrow][totalcol];
 		
@@ -23,7 +23,7 @@ public class DataProviders {
 		{
 			for(int j=0;j<totalcol;j++)
 			{
-				logindata[i-1][j] = xlutil.getCellData("Sheet1", i, j);
+				logindata[i-1][j] = xlutil.getCellData("Search", i, j);
 			}
 		}
 	return logindata;
